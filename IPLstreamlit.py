@@ -15,9 +15,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load data
-df = pd.read_csv("/Users/aryangandrath/PycharmProjects/IPL Prediction/venv/cricket_data_2025.csv")
-matches = pd.read_csv("/Users/aryangandrath/PycharmProjects/IPL Prediction/venv/matches.csv")
-deliveries_df = pd.read_csv("/Users/aryangandrath/PycharmProjects/IPL Prediction/venv/deliveries.csv")
+df = pd.read_csv("cricket_data_2025.csv")
+matches = pd.read_csv("matches.csv")
+deliveries_df = pd.read_csv("compressed_delivery.csv.gz")
 
 # Team colors and logos
 team_colors = {
@@ -221,7 +221,7 @@ elif selected_view == "Toss Predictor":
 # Predict Match Winner
 elif selected_view == "Predict Match Winner":
     st.header("🔮 Predict Upcoming Match Winner")
-    upcoming_schedule = pd.read_csv("/Users/aryangandrath/PycharmProjects/IPL Prediction/venv/2025_IPL_Schedule.csv")
+    upcoming_schedule = pd.read_csv("2025_IPL_Schedule.csv")
     upcoming_match = st.selectbox("Select Upcoming Match", upcoming_schedule["Home Team"] + " vs " + upcoming_schedule["Away Team"])
     team1_col = upcoming_schedule["Home Team"] + " vs " + upcoming_schedule["Away Team"]
     match_row = upcoming_schedule[team1_col == upcoming_match].iloc[0]
