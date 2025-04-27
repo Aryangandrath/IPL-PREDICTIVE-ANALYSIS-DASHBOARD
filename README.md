@@ -10,6 +10,29 @@ This interactive dashboard allows users to explore IPL 2025 player statistics, p
 
 ---
 
+## 🔗 App Deployment URL
+[Click here to view the deployed Streamlit app](https://ipl-predictive-analysis-app.streamlit.app/)
+
+---
+
+## 🖥️ Local Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/Aryangandrath/IPL-PREDICTIVE-ANALYSIS-DASHBOARD
+
+# Navigate into the project directory
+cd IPL-PREDICTIVE-ANALYSIS-DASHBOARD
+
+# Install required Python packages
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run app.py
+```
+
+---
+
 ## 🎯 Key Features
 - **Player Performance Explorer**: Analyze top batsmen and bowlers based on runs, wickets, strike rates, and economy rates.
 - **Match Insights & Momentum Charts**: Dive deep into match-level data including run progression and player-of-the-match highlights.
@@ -23,54 +46,46 @@ This interactive dashboard allows users to explore IPL 2025 player statistics, p
 ---
 
 ## 📊 Data Sources
-- **Matches Dataset** (`matches.csv`): Match outcomes, winners, toss decisions, venues, and seasons.
-- **Ball-by-Ball Dataset** (`compressed_delivery.csv.gz`): Detailed ball-by-ball player statistics.
-- **Player Statistics Dataset** (`cricket_data_2025.csv`): Aggregated player batting and bowling metrics.
-- **Upcoming Matches Dataset** (`2025_IPL_Schedule.csv`): Fixtures for the IPL 2025 season.
+- **Matches Dataset** (`matches.csv`)
+- **Ball-by-Ball Dataset** (`compressed_delivery.csv.gz`)
+- **Player Statistics Dataset** (`cricket_data_2025.csv`)
+- **Upcoming Matches Dataset** (`2025_IPL_Schedule.csv`)
 
 ---
 
 ## 📈 Visualizations Used
-- **Bar Charts**: Top batsmen, bowlers, and team comparisons.
-- **Line Charts**: Run progression and momentum tracking per match.
-- **Heatmaps**: Team performances by venue.
-- **Pie Charts**: Dismissal types in batsman vs bowler duels.
-- **Map Visualizations**: Stadium locations using OpenStreetMap integration.
-- **Animated Charts**: Season-wise team wins progression.
+- **Bar Charts**: Top batsmen, bowlers, and team comparisons
+- **Line Charts**: Run progression and momentum tracking per match
+- **Heatmaps**: Team performances by venue
+- **Pie Charts**: Dismissal types in batsman vs bowler duels
+- **Map Visualizations**: Stadium locations using OpenStreetMap integration
+- **Animated Charts**: Season-wise team wins progression
 
 ---
 
 ## 🎯 Who Will Find This Dashboard Useful?
-- **Coaches and Team Analysts**: Identify key performers and optimize match strategies.
-- **Fans and Enthusiasts**: Explore player stats, match outcomes, and predictive insights.
-- **Fantasy League Players**: Make informed decisions based on real-time player performances and team forms.
-- **Commentators and Journalists**: Back live commentary with powerful data-driven insights.
-- **Sports Data Scientists**: Build on the analytics foundation for advanced modeling.
+- **Coaches and Team Analysts**: Identify key performers and optimize match strategies
+- **Fans and Enthusiasts**: Explore player stats, match outcomes, and predictive insights
+- **Fantasy League Players**: Make informed decisions based on real-time performances
+- **Commentators and Journalists**: Support live commentary with data-driven insights
+- **Sports Data Scientists**: Build upon the analytics foundation for advanced modeling
 
 ---
 
 ## 🧠 Value Proposition
-- Enables **data-driven decision-making** in real-time.
-- Improves **fan engagement** through intuitive and dynamic insights.
-- Acts as a foundation for **future AI-powered sports analytics platforms**.
-- Bridges the gap between **historical data** and **predictive analytics** in sports.
+- Enables data-driven decision-making in real-time
+- Improves fan engagement through intuitive insights
+- Lays the groundwork for AI-powered sports analytics
+- Bridges the gap between historical data and predictive analytics
 
 ---
 
-## 🛠️ Future Enhancements
-- Real-time data ingestion for live match updates.
-- Deeper predictive models using machine learning.
-- Enhanced player heatmaps and performance trendlines.
-- Expansion into other cricket leagues like BBL, PSL, and The Hundred.
+## 🚀 Future Enhancements
+- Real-time data ingestion for live match updates
+- Deeper predictive models using machine learning
+- Enhanced player heatmaps and trendlines
+- Expansion into other cricket leagues like BBL, PSL, and The Hundred
 
 ---
 
-## 📂 How to Run Locally
-1. Clone the repository.
-2. Install requirements: `pip install -r requirements.txt`
-3. Place all required datasets in the working directory.
-4. Run: `streamlit run app.py`
-
----
-
-Made with ❤️ by **Team 20** | IPL 2025
+Made with ❤️ by **Team 20 | IPL 2025**
