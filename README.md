@@ -33,7 +33,7 @@ This interactive dashboard allows users to explore IPL 2025 player statistics, p
 ## 📈 Visualizations Used
 - **Bar Charts**: Top batsmen, bowlers, and team comparisons.
 - **Line Charts**: Run progression and momentum tracking per match.
-- **Heatmaps**: (Future enhancement) - Team performances by venue.
+- **Heatmaps**: Team performances by venue.
 - **Pie Charts**: Dismissal types in batsman vs bowler duels.
 - **Map Visualizations**: Stadium locations using OpenStreetMap integration.
 - **Animated Charts**: Season-wise team wins progression.
